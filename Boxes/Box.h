@@ -20,4 +20,6 @@
 
 -(float)Volume:Dimensions;
 
+-(int)testfit:(Box *)otherbox;
+
 @end
