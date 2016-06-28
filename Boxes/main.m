@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Box.h"
 
 int main(int argc, const char * argv[]) {
-    return 0;
+    
+    Box *Box1 = [[Box alloc] init];
+    Box1.height = 4;
+    Box1.width = 3;
+    Box1.length = 2;
+   
+    float v = [Box1 Volume:Box1];
+    NSLog(@"%f", v);
 }

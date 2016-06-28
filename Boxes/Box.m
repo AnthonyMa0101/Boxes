@@ -10,4 +10,14 @@
 
 @implementation Box
 
+- (float)Dimensions:(float)height :(float)width :(float)length {
+    return self.height;
+    return self.width;
+    return self.length;
+}
+
+-(float)Volume:Dimensions{
+    return self.height*self.width*self.length;
+}
+
 @end

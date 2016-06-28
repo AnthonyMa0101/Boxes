@@ -10,4 +10,14 @@
 
 @interface Box : NSObject
 
+@property float height;
+
+@property float width;
+
+@property float length;
+
+-(float)Dimensions:(float)height :(float)width :(float)length;
+
+-(float)Volume:Dimensions;
+
 @end
